@@ -13,6 +13,11 @@ import java.util.*;
  */
 public class GenteratorCode {
 
+    /**
+     *
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         //用来获取Mybatis-Plus.properties文件的配置信息
         ResourceBundle rb = ResourceBundle.getBundle("mybatisplus");
